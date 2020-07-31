@@ -8,7 +8,6 @@ CREATE TABLE item(
   food BOOL NOT NULL,
   isOpen BOOL,
   freezing BOOL,
-  refrigerating BOOL,
-  expiryDate TIMESTAMP,
+  expDate TIMESTAMP,
   finnished BOOL
 );
