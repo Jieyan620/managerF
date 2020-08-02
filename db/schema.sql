@@ -4,8 +4,8 @@ CREATE DATABASE managerF_db;
 
 CREATE TABLE item(
   id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
-  item VARCHAR(100) NOT NULL,
-  food BOOL NOT NULL,
+  itemName VARCHAR(100) NOT NULL,
+  isFood BOOL NOT NULL,
   isOpen BOOL,
   freezing BOOL,
   expDate TIMESTAMP,
