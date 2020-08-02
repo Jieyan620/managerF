@@ -7,6 +7,7 @@
   <title>list</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/list.css">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="navbar-collapse collapse show" id="navbarColor02">
+    <div class="navbar-collapse collapse" id="navbarColor02">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
@@ -29,7 +30,7 @@
           <a class="nav-link" href="items.html">All Items</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="newItem.html">Add Item</a>
+          <a class="nav-link" href="newItem.html">Create Item</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="list.html">Shopping List</a>
@@ -41,9 +42,24 @@
       </form>
     </div>
   </nav>
-<h1>list</h1>
+  <h1>list</h1>
 
-
+  <div class="card shoppingList">
+    <div class="card-header bg-danger text-white">
+      Shopping List
+    </div>
+    <div class="card-body">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="item you want" aria-label="item you want"
+          aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Add</button>
+        </div>
+      </div>
+      <div class="card-text">With supporting text below as a natural lead-in to additional content.</div>
+      <a href="#" class="btn btn-danger">Finished</a>
+    </div>
+  </div>
 
 
 
